@@ -328,7 +328,6 @@
   <project path="external/libcxx" name="platform/external/libcxx" groups="pdk" />
   <project path="external/libcxxabi" name="platform/external/libcxxabi" groups="pdk" />
   <project path="external/libdivsufsort" name="platform/external/libdivsufsort" groups="pdk" />
-  <project path="external/libdrm" name="platform/external/libdrm" groups="pdk" />
   <project path="external/libepoxy" name="platform/external/libepoxy" groups="pdk" />
   <project path="external/libese" name="platform/external/libese" groups="pdk" />
   <project path="external/libevent" name="platform/external/libevent" groups="pdk" />
@@ -971,7 +970,6 @@
   <project path="packages/apps/SafetyRegulatoryInfo" name="platform/packages/apps/SafetyRegulatoryInfo" groups="pdk-fs" />
   <project path="packages/apps/SampleLocationAttribution" name="platform/packages/apps/SampleLocationAttribution" groups="pdk-fs" />
   <project path="packages/apps/SecureElement" name="platform/packages/apps/SecureElement" groups="apps_se,pdk-fs" />
-  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" groups="pdk-fs" />
   <project path="packages/apps/SettingsIntelligence" name="platform/packages/apps/SettingsIntelligence" groups="pdk-fs" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" groups="pdk-fs" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" groups="apps_stk,pdk-fs" />
@@ -1115,7 +1113,6 @@
   <project path="system/ca-certificates" name="platform/system/ca-certificates" groups="pdk" />
   <project path="system/chre" name="platform/system/chre"  groups="pdk" />
   <project path="system/connectivity/wificond" name="platform/system/connectivity/wificond" groups="pdk" />
-  <project path="system/core" name="platform/system/core" groups="pdk" />
   <project path="system/dmesgd" name="platform/system/dmesgd" groups="pdk" />
   <project path="system/extras" name="platform/system/extras" groups="pdk" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" />
