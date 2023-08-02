@@ -5,7 +5,7 @@
   <remote name="mentor-github" fetch="https://github.com/MentorEmbedded/" review=""/>
   <remote name="ladland-github" fetch="https://github.com/ladland/" review=""/>
   <remote name="xilinx-github" fetch="https://github.com/Xilinx/" review=""/>
-  <default remote="aosp" revision="refs/tags/android-13.0.0_r66" sync-j="4" />
+  <default remote="aosp" revision="refs/tags/android-13.0.0_r62" sync-j="8" />
   <remote  name="github" fetch="https://github.com/" />
 
 
@@ -29,7 +29,7 @@
   <project path="external/v4l-utils" name="mpsoc-v4l-utils" remote="mentor-github" revision="zynqmp-android_8" groups="pdk" />
   <project path="packages/apps/Settings" name="mpsoc-android_packages_apps_settings" remote="mentor-github" revision="zynqmp-android_8" groups="pdk-fs" />
 
-<superproject name="platform/superproject" remote="aosp" revision="android-13.0.0_r66"/>
+<superproject name="platform/superproject" remote="aosp" revision="android-13.0.0_r62"/>
   <contactinfo bugurl="go/repo-bug" />
   <!-- BEGIN open-source projects -->
   <project path="build/make" name="platform/build" groups="pdk" >
