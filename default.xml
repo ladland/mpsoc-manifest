@@ -5,7 +5,7 @@
   <remote name="mentor-github" fetch="https://github.com/MentorEmbedded/" review=""/>
   <remote name="ladland-github" fetch="https://github.com/ladland/" review=""/>
   <remote name="xilinx-github" fetch="https://github.com/Xilinx/" review=""/>
-  <default remote="aosp" revision="refs/tags/android-13.0.0_r62" sync-j="8" />
+  <default remote="aosp" revision="refs/tags/android-13.0.0_r66" sync-j="8" />
   <remote  name="github" fetch="https://github.com/" />
 
   <!-- Xilinx MPSoC specific repositories -->
@@ -28,7 +28,7 @@
   <project path="external/v4l-utils" name="mpsoc-v4l-utils" remote="mentor-github" revision="zynqmp-android_8" groups="pdk" />
   <project path="packages/apps/Settings" name="mpsoc-android_packages_apps_settings" remote="mentor-github" revision="zynqmp-android_8" groups="pdk-fs" />
 
-<superproject name="platform/superproject" remote="aosp" revision="android-13.0.0_r62"/>
+<superproject name="platform/superproject" remote="aosp" revision="android-13.0.0_r66"/>
   <contactinfo bugurl="go/repo-bug" />
   <!-- BEGIN open-source projects -->
   <project path="build/make" name="platform/build" groups="pdk" >
@@ -134,8 +134,8 @@
   <project path="device/linaro/poplar-kernel" name="device/linaro/poplar-kernel" groups="device,poplar,pdk" clone-depth="1" />
   <project name="device/mediatek/wembley-sepolicy" path="device/mediatek/wembley-sepolicy" groups="device"/>
   <project path="device/sample" name="device/sample" groups="pdk" />
-  <!-- <project path="device/ti/beagle_x15" name="device/ti/beagle-x15" groups="device,beagle_x15,pdk" />
-  <project path="device/ti/beagle_x15-kernel" name="device/ti/beagle-x15-kernel" groups="device,beagle_x15,pdk" clone-depth="1" /> -->
+  <project path="device/ti/beagle_x15" name="device/ti/beagle-x15" groups="device,beagle_x15,pdk" />
+  <project path="device/ti/beagle_x15-kernel" name="device/ti/beagle-x15-kernel" groups="device,beagle_x15,pdk" clone-depth="1" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
   <project path="external/abseil-cpp" name="platform/external/abseil-cpp" groups="pdk" />
   <project path="external/adt-infra" name="platform/external/adt-infra" groups="adt-infra,notdefault,pdk-fs" />
@@ -203,6 +203,7 @@
   <project path="external/doclava" name="platform/external/doclava" groups="pdk" />
   <project path="external/dokka" name="platform/external/dokka" groups="pdk" />
   <project path="external/downloader" name="platform/external/downloader" groups="pdk" />
+  <project path="external/drm_hwcomposer" name="platform/external/drm_hwcomposer" groups="drm_hwcomposer,pdk-fs" />
   <project path="external/dtc" name="platform/external/dtc" groups="pdk"/>
   <project path="external/dynamic_depth" name="platform/external/dynamic_depth" groups="pdk" />
   <project path="external/e2fsprogs" name="platform/external/e2fsprogs" groups="pdk" />
@@ -329,6 +330,7 @@
   <project path="external/libcxx" name="platform/external/libcxx" groups="pdk" />
   <project path="external/libcxxabi" name="platform/external/libcxxabi" groups="pdk" />
   <project path="external/libdivsufsort" name="platform/external/libdivsufsort" groups="pdk" />
+  <project path="external/libdrm" name="platform/external/libdrm" groups="pdk" />
   <project path="external/libepoxy" name="platform/external/libepoxy" groups="pdk" />
   <project path="external/libese" name="platform/external/libese" groups="pdk" />
   <project path="external/libevent" name="platform/external/libevent" groups="pdk" />
@@ -971,6 +973,7 @@
   <project path="packages/apps/SafetyRegulatoryInfo" name="platform/packages/apps/SafetyRegulatoryInfo" groups="pdk-fs" />
   <project path="packages/apps/SampleLocationAttribution" name="platform/packages/apps/SampleLocationAttribution" groups="pdk-fs" />
   <project path="packages/apps/SecureElement" name="platform/packages/apps/SecureElement" groups="apps_se,pdk-fs" />
+  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" groups="pdk-fs" />
   <project path="packages/apps/SettingsIntelligence" name="platform/packages/apps/SettingsIntelligence" groups="pdk-fs" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" groups="pdk-fs" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" groups="apps_stk,pdk-fs" />
@@ -1114,6 +1117,7 @@
   <project path="system/ca-certificates" name="platform/system/ca-certificates" groups="pdk" />
   <project path="system/chre" name="platform/system/chre"  groups="pdk" />
   <project path="system/connectivity/wificond" name="platform/system/connectivity/wificond" groups="pdk" />
+  <project path="system/core" name="platform/system/core" groups="pdk" />
   <project path="system/dmesgd" name="platform/system/dmesgd" groups="pdk" />
   <project path="system/extras" name="platform/system/extras" groups="pdk" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" />
@@ -1210,6 +1214,5 @@
   <project path="tools/treble" name="platform/tools/treble" groups="tools,pdk" />
   <project path="tools/trebuchet" name="platform/tools/trebuchet" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" />
   <!-- END open-source projects -->
-
 
   </manifest>
